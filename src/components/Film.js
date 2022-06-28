@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Film = () => {
+const Film = ({ name, children }) => {
     return (
         <>
-            <h4>film</h4>
+            <h4>{name}</h4>
+            <button>{children}</button>
         </>
     )
 }
